@@ -19,7 +19,9 @@ body {
 
 .daily-workout-summary {
     margin: 0;
-    border: solid 1px;
+    /* border: solid 1px; */
+    background-color: rgb(249, 223, 190);
+    border-radius: 10px;
 }
 
 
@@ -28,11 +30,15 @@ body {
     flex-direction: column;
     padding: 10px;
     margin: 10px;
-    border: solid 1px;
+    /* border: solid 1px; */
+    background-color: rgb(249, 223, 190);
+    border-radius: 10px;
 }
 
 
 .past-workout-logs {
     margin: 0;
-    border: solid 1px;
+    /* border: solid 1px; */
+    background-color: rgb(249, 223, 190);
+    border-radius: 10px;
 }
