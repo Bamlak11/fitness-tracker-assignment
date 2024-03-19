@@ -1,6 +1,11 @@
 header {
     text-align: center;
+    display: flex;
+    padding: 10px;
+
+    margin: 10px;
 }
+
 
 main {
     display: flex;
@@ -16,9 +21,13 @@ body {
 
 }
 
-
+button {
+    padding: 5px;
+    margin: 10px;
+}
 .daily-workout-summary {
-    margin: 0;
+    margin: 10px;
+    padding: 20px;
     /* border: solid 1px; */
     background-color: rgb(249, 223, 190);
     border-radius: 10px;
@@ -28,7 +37,7 @@ body {
 .new-workout {
     display:flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     /* border: solid 1px; */
     background-color: rgb(249, 223, 190);
@@ -37,7 +46,8 @@ body {
 
 
 .past-workout-logs {
-    margin: 0;
+    margin: 10px;
+    padding: 10px;
     /* border: solid 1px; */
     background-color: rgb(249, 223, 190);
     border-radius: 10px;
