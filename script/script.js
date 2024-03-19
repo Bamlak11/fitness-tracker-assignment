@@ -24,6 +24,8 @@ let logWorkout = {
     duration: 10
 };
 
+ 
+
 
 
 
@@ -31,4 +33,13 @@ function workoutSummary() {
 
 return workoutLog.length;
 
+}
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+   
+    const 
 }
