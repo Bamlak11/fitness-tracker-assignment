@@ -19,8 +19,9 @@
 
     <main>
 
-        <div class="daily-workout-summary">
+        <div class="daily-workout-summary" id="daily-workout-summary">
             <h2>Daily Workout Summary</h2>
+            <button id="log-workout-btn">Log Summary</button>
         </div>
 
 
@@ -28,7 +29,7 @@
             <h2>New Workout</h2>
 
             <label>Excercise Type:</label>
-            <select id="new-workout">
+            <select id="workout">
                 <option value="cardio">Cardio</option>
                 <option value="upper body">Upper Body</option>
                 <option value="lower body">Lower Body</option>           
@@ -49,6 +50,7 @@
             <input type="number" id="reps" min="1">
 
             <button id="create-workout-btn">Create New Workout</button>
+            
         </div>
 
 
@@ -56,7 +58,7 @@
             <h2>Past Workout Logs</h2>
         </div>
 
-
+        
 
 
     </main>
